@@ -1,3 +1,7 @@
+"""
+Goals : Calculate mean median and mode from list of number   
+"""
+
 def find_mean(list_number: list):
     total = 0
     for i in list_number:
