@@ -1,3 +1,7 @@
+"""
+Goals : Return missing value in range list of number 
+"""
+
 def missing_num(number):
 
     miss_val = []
