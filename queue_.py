@@ -65,20 +65,12 @@ my_queue.show_queue()
 my_queue.size()
 
 # queue
-my_queue.enqueue(1)
-my_queue.enqueue(2)
-my_queue.enqueue(3)
-my_queue.enqueue(4)
-my_queue.enqueue(5)
-my_queue.enqueue(6)
-my_queue.enqueue(7)
-my_queue.enqueue(8)
-my_queue.enqueue(9)
-my_queue.enqueue(10)
-my_queue.show_queue()
+for i in range(1, 11):
+    my_queue.enqueue(i)
+    my_queue.show_queue()
+    my_queue.size()
 
 my_queue.enqueue(11)
-my_queue.size()
 
 # dequeue
 my_queue.dequeue()
@@ -90,5 +82,3 @@ my_queue.enqueue(11)
 my_queue.show_queue()
 print(my_queue.is_empty())
 print(my_queue.is_max())
-
-
